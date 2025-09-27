@@ -37,8 +37,8 @@ fun SplashScreen(navController: NavController) {
    LaunchedEffect(key1 = true, block = {
       scale.animateTo(targetValue = 0.9f, 
          animationSpec = tween(durationMillis = 800, easing = FastOutSlowInEasing))
-      delay(1500L)
-      navController.navigate(WeatherScreens.MainScreen.name) {
+      delay(1000L)
+      navController.navigate(WeatherScreens.MainScreen.name +"/London") {
          popUpTo(WeatherScreens.SplashScreen.name) {
             inclusive = true
          }
