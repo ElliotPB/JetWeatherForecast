@@ -21,5 +21,9 @@ fun getCityList(): List<City> {
       City("Los Angeles", 34.0522, -118.2437),
       City("Toronto", 43.651070, -79.347015),
       City("Mumbai", 19.0760, 72.8777),
+      City("Leeds", 53.8008, -1.5491),
+      City("Chicago", 41.8781, -87.6298),
+      City("San Francisco", 37.7749, -122.4194),
+      City("York", 53.9590, -1.0815)
    )
 }
